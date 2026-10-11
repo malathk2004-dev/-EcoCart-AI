@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoCart - Shopping Cart</title>
+<!-- Link Stylesheet -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Lucide Icons Library -->
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<!-- Header (Navbar) -->
+<header class="navbar">
+<div class="logo">
+<i data-lucide="leaf"></i>
+<span>EcoCart</span>
+<span class="badge-ai">AI</span>
+</div>
+<nav class="nav-links">
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">Recommendations</a>
+<a href="#">Offers</a>
+</nav>
+<div class="nav-icons">
+<i data-lucide="search"></i>
+<i data-lucide="bell"></i>
+<i data-lucide="shopping-cart"></i>
+<div class="user-avatar">SQ</div>
+</div>
+</header>
+
+<!-- Main Content -->
+<main class="container">
+<h1 class="page-title">Shopping cart</h1>
+
+<div class="cart-layout">
+<!-- Left Section: Cart Items -->
+<div class="cart-items">
+
+<!-- Item 1 -->
+<div class="cart-item">
+<div class="item-image bg-sand">
+<i data-lucide="shirt"></i>
+</div>
+<div class="item-details">
+<h3>Linen Overshirt</h3>
+<p>Size M · Sand</p>
+</div>
+<div class="item-quantity">
+<button>-</button>
+<span>1</span>
+<button>+</button>
+</div>
+<div class="item-price">189.00 SAR</div>
+<div class="item-remove">
+<i data-lucide="trash-2"></i>
+</div>
+</div>
+
+<!-- Item 2 -->
+<div class="cart-item">
+<div class="item-image bg-beige">
+<i data-lucide="shopping-bag"></i>
+</div>
+<div class="item-details">
+<h3>Canvas Tote Bag</h3>
+<p>Natural</p>
+</div>
+<div class="item-quantity">
+<button>-</button>
+<span>1</span>
+<button>+</button>
+</div>
+<div class="item-price">129.00 SAR</div>
+<div class="item-remove">
+<i data-lucide="trash-2"></i>
+</div>
+</div>
+
+<!-- Item 3 -->
+<div class="cart-item">
+<div class="item-image bg-blue-gray">
+<i data-lucide="droplet"></i>
+</div>
+<div class="item-details">
+<h3>Recycled Steel Bottle</h3>
+<p>750 ml · Graphite</p>
+<span class="stock-alert">Only 4 left</span>
+</div>
+<div class="item-quantity">
+<button>-</button>
+<span>1</span>
+<button>+</button>
+</div>
+<div class="item-price">79.00 SAR</div>
+<div class="item-remove">
+<i data-lucide="trash-2"></i>
+</div>
+</div>
+
+<!-- Budget Note -->
+<div class="budget-note">
+<div class="note-icon"><i data-lucide="credit-card"></i></div>
+<div class="note-content">
+<h4>Budget note</h4>
+<p>This order uses 397 of your remaining 760 SAR for October. Swapping the tote for the Merino Beanie would save 60 SAR.</p>
+</div>
+<a href="#" class="swap-link">See swap</a>
+</div>
+
+</div>
+
+<!-- Right Section: Order Summary -->
+<div class="cart-summary">
+
+<!-- Promo Code -->
+<div class="promo-section">
+<h3>Promo code</h3>
+<div class="promo-input">
+<input type="text" placeholder="GREEN15">
+<button>Apply</button>
+</div>
+<p class="promo-hint">GREEN15 applies to accessories only. None in this cart.</p>
+</div>
+
+<!-- Order Summary -->
+<div class="summary-details">
+<h3>Order summary</h3>
+<div class="summary-row">
+<span>Subtotal (3 items)</span>
+<span>397.00 SAR</span>
+</div>
+<div class="summary-row">
+<span>Shipping</span>
+<span>Free</span>
+</div>
+<div class="summary-row">
+<span>VAT (included)</span>
+<span>51.78 SAR</span>
+</div>
+<hr>
+<div class="summary-row total-row">
+<span>Total</span>
+<span>397.00 SAR</span>
+</div>
+
+<button class="checkout-btn">Proceed to Checkout</button>
+<p class="secure-checkout"><i data-lucide="lock"></i> Secure checkout · 14-day returns</p>
+</div>
+
+</div>
+</div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-brand">
+<div class="logo">
+<i data-lucide="leaf"></i>
+<span>EcoCart</span>
+<span class="badge-ai">AI</span>
+</div>
+<p>A store that explains every recommendation, keeps an eye on your monthly budget and shows where sustainability data comes from.</p>
+</div>
+<div class="footer-links">
+<h4>Help</h4>
+<a href="#">Help center</a>
+<a href="#">Returns policy</a>
+<a href="#">Shipping</a>
+<a href="#">Track my order</a>
+</div>
+<div class="footer-links">
+<h4>Quick links</h4>
+<a href="#">Categories</a>
+<a href="#">Recommendations</a>
+<a href="#">Offers</a>
+<a href="#">My account</a>
+</div>
+<div class="footer-newsletter">
+<h4>Newsletter</h4>
+<p>New arrivals and offers that fit your preferences.</p>
+<div class="newsletter-input">
+<input type="email" placeholder="your@email.com">
+<button>Subscribe</button>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 EcoCart AI · Riyadh, Saudi Arabia · Privacy · Terms</p>
+</div>
+</footer>
+
+<!-- Initialize Lucide Icons -->
+<script>
+lucide.createIcons();
+</script>
+
+</body>
+</html>
+
